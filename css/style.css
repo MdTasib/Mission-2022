@@ -98,3 +98,32 @@ body {
 .mission-3 {
 	background: lightcyan;
 }
+
+/* discuss section */
+.discuss img {
+	width: 60%;
+}
+
+.discuss {
+	padding: 40px 0px;
+}
+
+.project-discuss {
+	text-align: right;
+}
+
+/* footer section */
+.footer {
+	text-align: center;
+	background: black;
+	color: #fff;
+	padding: 1rem 0;
+}
+
+.footer h2 {
+	font-family: cursive;
+}
+
+.footer p {
+	font-size: 16px;
+}
