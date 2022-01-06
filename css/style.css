@@ -1,4 +1,100 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Rubik', sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.section-pad {
+	padding: 4rem 0rem;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.col-2 {
+	flex-basis: 50%;
+}
+
+.col-3 {
+	flex-basis: 33%;
+}
+
+.text-primary {
+	color: #020261;
+}
+
+.btn {
+	background: #020261;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 8px;
+	margin: 10px 0px;
+	padding: 15px 25px;
+	font-weight: 700;
+	display: inline-block;
+	transition: all 0.5s;
+}
+
+.btn:hover {
+	background: #020290;
+}
+
+/* top banner section */
+.top-banner-text h1 {
+	border-left: 5px solid #020261;
+	padding-left: 15px;
+	font-size: 44px;
+}
+
+.top-banner-img {
+	text-align: right;
+}
+
+.top-banner-img img {
+	width: 70%;
+}
+
+/* mission section*/
+
+.mission-header {
+	font-size: 44px;
+	text-align: center;
+}
+
+.mission img {
+	width: 40%;
+}
+
+.mission-1,
+.mission-2,
+.mission-3 {
+	margin: 0px 30px;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.mission-1 p,
+.mission-2 p,
+.mission-3 p {
+	font-size: 16px;
+}
+
+.mission-1 {
+	background: lightblue;
+}
+
+.mission-2 {
+	background: lightpink;
+}
+
+.mission-3 {
+	background: lightcyan;
 }
